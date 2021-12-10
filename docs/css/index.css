@@ -1,13 +1,11 @@
 body {
     --text-margin: 200px;
+    margin:0px;
 }
 
 #top-bar-background {
     height: var(--text-margin);
     width: 100vw;
-    top: 0px;
-    left: 0px;
-    position: absolute;
 
     background-color: hsla(226, 52%, 54%, 0.952)
 }
@@ -28,10 +26,6 @@ body {
 }
 
 /*   */
-
-#body-paragraph {
-    margin-top: calc(var(--text-margin) + 50px);
-}
 
 section {
     padding-left: 5rem;
